@@ -1,0 +1,46 @@
+.upperMidPane{
+    /* background-color: #E5E5E5; */
+    background-color: white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.midCol{
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+.leftBlock{
+    background-color: #8A9BA8;
+    width: 20vw;
+    height: 36.5vh;
+    border-radius: 12px;
+    
+    /* margin-right: 10vw; */
+}
+
+.midBlock{
+    background-color: #EBF1F5;
+    /* margin-left: 10vw; */
+    width: 25vw;
+    height: 18vh;
+    border-radius: 12px;
+    /* margin-right: 10vw; */
+    margin-bottom: 1vh;
+
+}
+
+.rightBlock{
+    background-color: #EBF1F5;
+    /* margin-left: 10vw; */
+    /* margin-right: 10vw; */
+    float: right;
+    width: 25vw;
+    margin-bottom: 1vh;
+    height: 18vh;
+    border-radius: 12px;
+}
