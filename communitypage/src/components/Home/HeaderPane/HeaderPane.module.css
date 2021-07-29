@@ -1,0 +1,18 @@
+.HeaderPane{
+    background-color: #F5F8FA;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.HeaderPaneImg{
+    margin-right: 70px;
+    float: right;
+}
+
+
+
+.leftColumn{
+    margin-left: 70px;
+    /* float: left;     */
+
+}

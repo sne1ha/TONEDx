@@ -1,0 +1,34 @@
+.lowerMidPane{
+    background-color: #EBF1F5;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 400px;
+}
+
+.cardRow{
+    padding-top: 50px;
+    padding-left: 55px;
+    padding-bottom: 55px;
+    /* height: 400px; */
+    background-color: red;
+    overflow: auto;
+}
+
+.navButton{
+    background-color: #8A9BA8;
+    border-radius: 32px;
+    float: left;
+}
+
+.navButton2{
+    background-color: #8A9BA8;
+    border-radius: 32px;
+    float: right;
+}
+
+.titleRow{
+    /* position: static; */
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
