@@ -8,7 +8,8 @@ import HeaderPane from '../../components/Home/HeaderPane/HeaderPane';
 import LowerMidPane from '../../components/Home/LowerMidPane/LowerMidPane';
 import QuestionSection from '../../components/Home/QuestionSection/QuestionSection';
 import UpperMidPane from '../../components/Home/UpperMidPane/UpperMidPane';
-import BottomPane from '../../components/Home/BottomPane/BottomPane'
+import BottomPane from '../../components/Home/BottomPane/BottomPane';
+import heart from './heart.png';
 
 
 
@@ -23,7 +24,7 @@ class Home extends Component{
             <HeaderPane />
             <UpperMidPane />
             <LowerMidPane />
-            {/* <ContentCard /> */}
+            {/* <ContentCard img={heart}/> */}
             <QuestionSection />
             <BottomPane />
             </React.Fragment>

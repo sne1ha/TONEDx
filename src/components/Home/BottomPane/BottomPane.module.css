@@ -1,5 +1,5 @@
 .BottomPane{
-    background-color: #30404D;
+    background-color: #796662;
     padding: 55px 55px 55px 55px;
     color: white;
 }
@@ -16,3 +16,7 @@
     background-color: red;
     color: yellow;
 } */
+
+.leftCol{
+    padding-right: 500px;
+}

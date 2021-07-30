@@ -1,0 +1,199 @@
+* {
+    box-sizing:border-box;
+  }
+  body {
+    background-image: url("https://i.imgur.com/LplVtZc.png");
+    /* https://i.imgur.com/Tl6IFBi.png */
+    /* background-size: 1380px 768px; */
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .form {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    height:400px;
+    background:#FCF7F5;
+    /* box-shadow:5px 5px 10px 5px rgb(184, 198, 209); */
+    /* border: 2px solid rgb(211, 196, 191); */
+    border-radius: 4px;
+  }
+  .form .tabHeader {
+    height:50px;
+    line-height:50px;
+  }
+  .form .tabHeader > div {
+    width:50%;
+    float:left;
+    text-align:center;
+    background:#f7efec;
+    color:#5A4743;
+    border-bottom: 2px solid #CFC2BE;
+    cursor:pointer;
+  }
+  .form .tabHeader > div.active {
+    background:#e6d6ce;
+    color:#5A4743;
+    border-bottom: 2px solid #79605A;
+  }
+  .form .tabContent {
+    padding:20px;
+  }
+  .form .tabContent .FormElement {
+    margin:10px 0px;
+  }
+  .form .tabContent .FormElement input {
+    width:100%;
+    padding:10px;
+    border:1px solid #aaa;
+    font-size:16px;
+    background:#f5f5f5;
+    border-radius:5px;
+    outline:none;
+  }
+  .form .tabContent .FormElement input[type="checkbox"] {
+    width:30px;
+    margin:8px 0px;
+    margin-left:-5px;
+  }
+  .form .tabContent .FormElement label {
+    color:#5A4743;
+    font-size: 16px;
+  }
+  .form .tabContent .FormElement button {
+    margin-top:25%;
+    margin-left: 30%;
+    width:40%;
+    padding:10px;
+    border:none;
+    outline:none;
+    background:#79605A;
+    color:#f5f5f5;
+    font-size:16px;
+    font-weight: bold;
+    /* text-transform:uppercase; */
+    cursor:pointer;
+    border-radius:5px;
+  }
+  .form .tabContent .FormElement2 button {
+    margin-top:73%;
+    margin-left: 30%;
+    width:40%;
+    padding:10px;
+    border:none;
+    outline:none;
+    background:#79605A;
+    color:#f5f5f5;
+    font-size:16px;
+    font-weight: bold;
+    /* text-transform:uppercase; */
+    cursor:pointer;
+    border-radius:5px;
+  }
+  .form .tabContent > div.active {
+    display:block;
+  }
+  .form .tabContent > div {
+    display:none;
+  }
+  .UserInputWrp {
+    position: relative;
+    width: 100%;
+    
+  }
+  .UserInputWrp .inputText{
+    /* width: 100%;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #777;
+     box-shadow: none !important; */
+    width:100%;
+    padding:10px;
+    border:1px solid #aaa;
+    font-size:16px;
+    background:#ffffff;
+    border-radius:5px;
+    color: #563F39;
+    outline:none;
+     box-shadow: none !important;
+  }
+  /* .UserInputWrp .inputText:focus{
+    border-color: blue;
+    border-width: medium medium 2px;
+  } */
+  .UserInputWrp .FloatingLabel {
+    position: absolute;
+    pointer-events: none;
+    top: 30px;
+    left: 10px;
+    color: #CCB8B3;
+    transition: 0.2s ease all;
+  }
+  .UserInputWrp input:focus ~ .FloatingLabel,
+  .UserInputWrp input:not(:focus):valid ~ .FloatingLabel{
+    top: 24px;
+    left: 10px;
+    font-size: 8px;
+    opacity: 1;
+    color: #CCB8B3;
+  }
+
+  .UserInputWrp2 {
+    position: relative;
+    width: 100%;
+    
+  }
+  .UserInputWrp2 .inputText{
+    /* width: 100%;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #777;
+     box-shadow: none !important; */
+    width:80%;
+    padding:10px;
+    margin-left: 12px;
+    border:1px solid #aaa;
+    font-size:16px;
+    background:#ffffff;
+    border-radius:5px;
+    color: #563F39;
+    outline:none;
+     box-shadow: none !important;
+  }
+  /* .UserInputWrp .inputText:focus{
+    border-color: blue;
+    border-width: medium medium 2px;
+  } */
+  .UserInputWrp2 .FloatingLabel {
+    position: absolute;
+    pointer-events: none;
+    top: 30px;
+    left: 23px;
+    color: #CCB8B3;
+    transition: 0.2s ease all;
+  }
+  .UserInputWrp2 input:focus ~ .FloatingLabel,
+  .UserInputWrp2 input:not(:focus):valid ~ .FloatingLabel{
+    top: 24px;
+    left: 20px;
+    font-size: 8px;
+    opacity: 1;
+    color: #CCB8B3;
+  }
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+  }
+
+  .colsm4 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
