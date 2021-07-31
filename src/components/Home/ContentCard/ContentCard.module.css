@@ -1,7 +1,7 @@
 .contentCard{
     /* margin-bottom: 3vh; */
     border-radius: 8px;
-    border: 2px solid black;
+    border: 2px solid #EEC1AA;
     height: 310px;
     overflow: hidden;
 
@@ -15,10 +15,15 @@
 
 .contentText{
     text-align: center;
+    /* color: red; */
+    /* font-size: 50em; */
 }
 
 .textBox{
     text-align: center;
+    /* nah */
+    padding: 5px 20px 0px 10px;
+    /* font-size: 1.8vh; */
 }
 
 .addButton{

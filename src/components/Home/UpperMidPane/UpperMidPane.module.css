@@ -15,32 +15,40 @@
 }
 
 .leftBlock{
-    background-color: #8A9BA8;
+    background-color: #EEC1AA;
     width: 20vw;
-    height: 36.5vh;
+    height: 29vh;
     border-radius: 12px;
-    
+    padding: 20px 20px 20px 20px;
     /* margin-right: 10vw; */
+    text-align: center;
+    font-size: 1.5vw;
 }
 
 .midBlock{
-    background-color: #EBF1F5;
+    background-color: #EFE2D9;
     /* margin-left: 10vw; */
     width: 25vw;
-    height: 18vh;
+    height: 14vh;
     border-radius: 12px;
     /* margin-right: 10vw; */
     margin-bottom: 1vh;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 1.5vw;
 
 }
 
 .rightBlock{
-    background-color: #EBF1F5;
+    background-color: #EFE2D9;
     /* margin-left: 10vw; */
     /* margin-right: 10vw; */
     float: right;
     width: 25vw;
     margin-bottom: 1vh;
-    height: 18vh;
+    height: 14vh;
     border-radius: 12px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 1.5vw;
 }

@@ -6,7 +6,9 @@
 
 .HeaderPaneImg{
     margin-right: 70px;
-    float: right;
+    /* float: right; */
+    position: relative;
+    /* left: 9vw; */
 }
 
 
