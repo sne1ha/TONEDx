@@ -1,0 +1,46 @@
+.contentCard{
+    border-radius: 8px;
+    border: 2px solid #EEC1AA; 
+    height: 310px;
+    overflow: hidden;
+    width: 248px;
+    margin: 0px;
+    margin-bottom: 15px;
+
+}
+
+.contentText{
+    text-align: center;
+}
+
+.textBox{
+    text-align: center;
+}
+
+.addButton{
+    position: relative;
+    float: right;
+    
+}
+
+.addButtonBox{
+     background-color: #796662; 
+    position: relative;
+    bottom: -50px;
+    left: -15px;
+    
+}
+
+.Image{
+    position: relative;
+    margin:0%;
+    left: 0px;
+}
+
+.numimage{
+    position: relative;
+    margin:0%;
+    left: 0px;
+    bottom: -35px;
+}
+

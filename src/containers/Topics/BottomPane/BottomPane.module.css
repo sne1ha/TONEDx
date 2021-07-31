@@ -1,0 +1,11 @@
+.BottomPane{
+    background-color:#796662;
+    padding: 55px 55px 55px 55px;
+    color: white;
+}
+
+
+.searchBar{
+    position: relative;
+    top: 20px;
+}

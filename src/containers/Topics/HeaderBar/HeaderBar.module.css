@@ -1,0 +1,21 @@
+.bar{
+background-color: #CCB7A6;
+margin: 0px;
+padding-left: 20vw;
+width: 100vw;
+padding-bottom: 25px;
+}
+
+
+.searchIcon{
+    background-color: transparent;
+    margin: 0px;
+    border: none;
+    margin-top: 6px;
+
+}
+
+.searchBar{
+    line-height: 20vh;
+    bottom: -10px;
+}
